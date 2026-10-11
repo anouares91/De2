@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-surface: #11131e;
+    --color-surface-dim: #11131e;
+    --color-surface-bright: #373846;
+    --color-surface-container-lowest: #0b0d19;
+    --color-surface-container-low: #191b27;
+    --color-surface-container: #1d1f2b;
+    --color-surface-container-high: #272936;
+    --color-surface-container-highest: #323441;
+    --color-surface-variant: #323441;
+    --color-on-surface: #e1e1f2;
+    --color-on-surface-variant: #e9bcb6;
+    --color-outline: #af8782;
+    --color-outline-variant: #5e3f3b;
+    --color-primary: #ffb4aa;
+    --color-primary-container: #e50914;
+    --color-on-primary-container: #fff7f6;
+    --color-secondary: #ffdb9d;
+    --color-secondary-container: #feb700;
+    --color-on-secondary-container: #6b4b00;
+    --color-secondary-fixed: #ffdea8;
+    --color-tertiary-container: #e11739;
+    --color-background: #11131e;
+    --color-on-background: #e1e1f2;
+  }
+
+  body {
+    font-family: 'Cairo', 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #11131e;
+    color: #e1e1f2;
+    overscroll-behavior: none;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga';
+}
+
+/* Hide scrollbar for clean horizontal and vertical carousels */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

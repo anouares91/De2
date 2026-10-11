@@ -1,0 +1,6 @@
+{
+  "name": "Nocturnal Cinema",
+  "description": "منصة البث السينمائي للدراما العمودية القصيرة والإنتاجات الحصرية بجودة 4K فائقة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
